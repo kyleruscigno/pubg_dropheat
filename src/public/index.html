@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title> PUBG Drop Heat </title>
+	<link rel='stylesheet' type='text/css' href='dropheat.css'>
+	<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+	<script type="text/javascript" src='./velocity.min.js'></script>
+	<script type='text/javascript' src='./map.js'></script>
+
+</head>
+<body onload="prep()">
+	<div class="content">
+		<div class="content-background"></div>
+		<div class="content-full">
+			<div id='nav-main' class='full-width-bar bar-large dark'>
+				<ul class='nav-list feature-text'>
+					<li id='erangel'><h2>Erangel</h2></li>
+					<li id='miramar'><h2>Miramar</h2></li>
+					<li id='savage'><h2>Savage</h2></li>
+				</ul>
+			</div>
+			<div id='nav-sub' class="full-width-bar halftone bar-small">
+				<ul class='nav-list accent-text'>
+					<li id='drops'><h3>Drops</h3></li>
+					<li id='carnage'><h3>Carnage</h3></li>
+				</ul>
+			</div>
+			<div class='full-width-expander'>
+				<div class="text-container center-text light-text">
+					<p id='data-descriptor'></p>
+				</div>
+				<div id='map-canvas-container'>
+					<div id='currentMap' class='map-canvas-background center-h'>
+						<canvas id='map-canvas' width='800' height='800'/>
+					</div>
+				</div>
+			</div>
+			<div id='footer' class='full-width-bar bar-small dark'>
+				<div class="text-container center-text">
+					<p> &copy; 2018 Kyle Ruscigno </p>
+				</div>
+			</div>
+	</div>
+</body>
+</html>
