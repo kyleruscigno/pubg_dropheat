@@ -2,6 +2,8 @@
 
 ## Intro
 
+![Dropheat Screen Capture](https://i.imgur.com/Qop57h3.gif)
+
 DropHeat is a server-based statistical heatmap for the game PlayerUnknown's Battlegrounds. It extensively makes use of the PUBG API as well as the [PUBG Node wrapper](https://github.com/Wobow/pubg_api). 
 
 The back-end consists of a Node/Express server supporting various routes to return data to the user based on game map, statistic, and time period. The Server queries the official PUBG API, gathering data then compiles statistics based on various parameters. This data is then queried through an included frontend for representation as a heatmap.
